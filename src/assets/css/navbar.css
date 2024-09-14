@@ -4,6 +4,30 @@
     box-sizing: border-box;
 
 }
-nav{
-    background: #000;
-}
+  .navbar {
+    justify-content: center;
+  }
+  
+  /* Navbarni ekranning yuqori qismida qotib qolishi uchun */
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: auto; /* Ekranni to'liq egallamasin */
+  }
+
+  /* Navbar linklarni joylashuvi */
+  .navbar-nav {
+    flex-direction: row; /* Linklarni gorizontal qilish uchun */
+  }
+
+  .nav-item {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  /* Navbarga cheklangan kenglik berish */
+  .navbar-container {
+    max-width: 960px; /* To'liq ekranni egallamasin */
+    width: 100%;
+  }

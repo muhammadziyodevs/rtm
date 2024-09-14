@@ -1,33 +1,25 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container navbar-container">
       <a class="navbar-brand" href="#">Logo</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon">
-          <font-awesome-icon icon="bars" /> 
+          <i class="fas fa-bars"></i>
         </span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">
-              Bosh Sahifa 
-             <font-awesome-icon icon="house" /> 
-              
-            </a>
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
-              Biz Haqimizda
-             <font-awesome-icon icon="user" /> 
-            </a>
+            <a class="nav-link" href="#">Features</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">  Sahifalarimiz <font-awesome-icon icon="book-open" /></a>
+            <a class="nav-link" href="#">Pricing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Bog`lanish
-              <font-awesome-icon icon="phone" /></a>
+            <a class="nav-link" href="#">Contact</a>
           </li>
         </ul>
       </div>
